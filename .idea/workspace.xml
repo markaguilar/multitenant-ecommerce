@@ -5,25 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/features/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/navbar-sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(home)/pricing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/Categories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/progress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/progress.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/textarea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/features/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/features/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/navbar-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/navbar-sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(home)/pricing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/pricing/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +101,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate:types.executor&quot;: &quot;Run&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/ubuntu/WebstormProjects/multitenant-ecommerce/node_modules/prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/ubuntu/WebstormProjects/multitenant-ecommerce/node_modules/typescript/lib&quot;,
@@ -109,10 +110,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/app/(app)" />
       <recent name="$PROJECT_DIR$/src/app/(home)" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Next.js: server-side">
+  <component name="RunManager" selected="npm.generate:types">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -126,6 +130,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="generate:types" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="generate:types" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.generate:types" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -147,6 +166,7 @@
       <workItem from="1745844764159" duration="1859000" />
       <workItem from="1745846663953" duration="515000" />
       <workItem from="1745917656795" duration="5783000" />
+      <workItem from="1745933268573" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
