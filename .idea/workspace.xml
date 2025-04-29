@@ -4,13 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment=":rocket: added shadcn, modified inputs, added fonts" />
+    <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/features/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/navbar-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(home)/pricing/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/progress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/progress.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/textarea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/textarea.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mark Ferdinan Aguilar &lt;markferdinan.mfa@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -47,7 +72,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/markaguilar/multitenant-ecommerce.git&quot;,
-    &quot;accountId&quot;: &quot;b0ca1343-0a40-461c-96fc-bb54b99fdc30&quot;
+    &quot;accountId&quot;: &quot;9c9a6506-7a91-4190-8e19-afd48ffa0596&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -56,30 +81,37 @@
   <component name="ProjectId" id="2wDEchv68CrvCK9qHx3JNlcZtAy" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "D:/multitenant-ecommerce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Next.js: server-side.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/multitenant-ecommerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/ubuntu/WebstormProjects/multitenant-ecommerce/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/ubuntu/WebstormProjects/multitenant-ecommerce/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/(home)" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -114,6 +146,7 @@
       <workItem from="1745810009159" duration="1288000" />
       <workItem from="1745844764159" duration="1859000" />
       <workItem from="1745846663953" duration="515000" />
+      <workItem from="1745917656795" duration="5783000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
@@ -123,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745846795346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts">
+      <option name="closed" value="true" />
+      <created>1745927566887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745927566887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":rocket: added shadcn, modified inputs, added fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value=":rocket: added shadcn, modified inputs, added fonts" />
+    <MESSAGE value="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts" />
   </component>
 </project>
