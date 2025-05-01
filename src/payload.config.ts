@@ -31,7 +31,10 @@ export default buildConfig({
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
   db: mongooseAdapter({
-    url: process.env.DATABASE_URI || "",
+    url: process.env.DATABASE_URI || 
+      (process.env.NODE_ENV === 'production'
+        ? (function() { throw new Error('DATABASE_URI is required in production') })()
+        : 'mongodb://localhost/payload-dev'),
   }),
   sharp,
   plugins: [
