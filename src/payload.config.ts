@@ -23,7 +23,10 @@ export default buildConfig({
   },
   collections: [Users, Media, Categories],
   editor: lexicalEditor(),
-  secret: process.env.PAYLOAD_SECRET || "",
+  secret: process.env.PAYLOAD_SECRET ||
+    (process.env.NODE_ENV === 'production'
+      ? (function() { throw new Error('PAYLOAD_SECRET is required in production') })()
+      : 'development-secret-key'),
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
