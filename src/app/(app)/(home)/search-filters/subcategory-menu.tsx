@@ -27,7 +27,7 @@ const SubcategoryMenu = ({ category, isOpen, position }: Props) => {
       style={{ top: position.top, left: position.left }}
     >
       {/* Invisible bridge to maintain hover*/}
-      <div className="h3 -w-60" />
+      <div className="h-3 -w-60" />
       <div
         style={{ backgroundColor }}
         className="w-60 text-black rounded-md overflow-hidden border shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] -translate-x-[2px] -translate-y-[2px]"
