@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(app)/(home)/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env.sample" beforeDir="false" afterPath="$PROJECT_DIR$/env.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/category-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/category-dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(payload)/admin/importMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(payload)/admin/importMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload-types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +47,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="05-search-filters" />
-                    <option name="lastUsedInstant" value="1755809266" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1745846570" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1745846569" />
                   </RecentBranch>
                 </list>
               </option>
@@ -53,12 +63,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/markaguilar/multitenant-ecommerce.git&quot;,
-    &quot;accountId&quot;: &quot;b0ca1343-0a40-461c-96fc-bb54b99fdc30&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/markaguilar/multitenant-ecommerce.git",
+    "accountId": "b0ca1343-0a40-461c-96fc-bb54b99fdc30"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -75,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "05-search-filters",
+    "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -86,6 +96,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.Next.js: server-side.executor": "Run",
+    "npm.db:seed.executor": "Run",
     "npm.generate:types.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\markf\\AppData\\Roaming\\npm\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
@@ -116,6 +127,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="db:seed" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="db:seed" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="generate:types" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -128,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.db:seed" />
         <item itemvalue="npm.generate:types" />
       </list>
     </recent_temporary>
@@ -153,8 +175,7 @@
       <workItem from="1745846663953" duration="515000" />
       <workItem from="1745917656795" duration="5783000" />
       <workItem from="1745933268573" duration="3640000" />
-      <workItem from="1755764548021" duration="3760000" />
-      <workItem from="1755773268979" duration="8168000" />
+      <workItem from="1755829259434" duration="10134000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
