@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
-      <change afterPath="$PROJECT_DIR$/src/app/(app)/api/trpc/[trpc]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/categories/server/procedure.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/categories/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trpc/client.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trpc/init.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trpc/query-client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trpc/routers/_app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trpc/server.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories-sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/categories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/category-dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/category-dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +40,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="07-trpc-integration" />
+                    <option name="lastUsedInstant" value="1756041217" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="06-categories-finalization" />
                     <option name="lastUsedInstant" value="1755854616" />
@@ -97,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "07-trpc-integration",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "junie.onboarding.icon.badge.shown": "true",
