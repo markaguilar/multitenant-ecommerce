@@ -8,10 +8,11 @@ import SubcategoryMenu from "./subcategory-menu";
 
 import { cn } from "@/lib/utils";
 import { useDropdownPosition } from "./use-dropdown-position";
-import { CustomCategory } from "@/app/(app)/(home)/types";
+
+import { CategoriesGetManyOutput } from "@/modules/categories/types";
 
 interface Props {
-  category: CustomCategory;
+  category: CategoriesGetManyOutput[1];
   isActive?: boolean;
   isNavigationHovered?: boolean;
 }
