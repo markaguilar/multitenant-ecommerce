@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trpc/client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/client.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trpc/init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/init.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trpc/query-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/query-client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/Users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/schemas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/schemas.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +43,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="08-authentication" />
+                    <option name="lastUsedInstant" value="1756090342" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1756046186" />
+                    <option name="lastUsedInstant" value="1756080862" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="07-trpc-integration" />
-                    <option name="lastUsedInstant" value="1756041217" />
+                    <option name="lastUsedInstant" value="1756080650" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="06-categories-finalization" />
@@ -85,11 +89,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;08-authentication&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/multitenant-ecommerce&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/multitenant-ecommerce/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -106,7 +110,13 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\multitenant-ecommerce\public" />
+      <recent name="D:\multitenant-ecommerce\src\modules\auth\ui\views" />
+      <recent name="D:\multitenant-ecommerce\src\app\(app)\(auth)" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\multitenant-ecommerce\public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/app/(app)" />
@@ -178,7 +188,8 @@
       <workItem from="1755829259434" duration="10527000" />
       <workItem from="1755851243732" duration="213000" />
       <workItem from="1755852747127" duration="362000" />
-      <workItem from="1756080439327" duration="171000" />
+      <workItem from="1756080439327" duration="9546000" />
+      <workItem from="1756091118631" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
