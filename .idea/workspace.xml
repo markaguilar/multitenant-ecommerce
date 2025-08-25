@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/Users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Users.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/schemas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/schemas.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-in-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-in-view.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-up-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-up-view.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +189,7 @@
       <workItem from="1755851243732" duration="213000" />
       <workItem from="1755852747127" duration="362000" />
       <workItem from="1756080439327" duration="9546000" />
-      <workItem from="1756091118631" duration="773000" />
+      <workItem from="1756091118631" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />

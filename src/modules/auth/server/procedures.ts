@@ -12,8 +12,6 @@ export const authRouter = createTRPCRouter({
 
     const session = await ctx.payload.auth({ headers });
 
-    console.log("session: ", session);
-
     return session;
   }),
   logout: baseProcedure.mutation(async () => {
@@ -35,9 +33,10 @@ export const authRouter = createTRPCRouter({
         collection: "users",
         limit: 1,
         where: {
-          username: {
-            equals: input.username,
-          },
+          or: [
+            { username: { equals: input.username } },
+            { email: { equals: input.email.toLowerCase() } },
+          ],
         },
       });
 
@@ -119,8 +118,15 @@ export const authRouter = createTRPCRouter({
       // domain: "",
       // funroad.com // initial cookie
       // antonio.funroad,com // cookies does not exist here
+      sameSite: "lax",
+      secure: process.env.NODE_ENV !== "development",
+      ...(process.env.AUTH_COOKIE_DOMAIN
+        ? { domain: process.env.AUTH_COOKIE_DOMAIN }
+        : {}),
+      ...(data.exp ? { expires: new Date(data.exp * 1000) } : {}),
     });
 
-    return data;
+    const { token, ...rest } = data;
+    return rest;
   }),
 });
