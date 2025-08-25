@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/subcategory-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/client.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/init.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/init.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/query-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/query-client.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,32 +79,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/multitenant-ecommerce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Next.js: server-side.executor": "Run",
-    "npm.db:seed.executor": "Run",
-    "npm.generate:types.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\markf\\AppData\\Roaming\\npm\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "D:\\multitenant-ecommerce\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/multitenant-ecommerce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;npm.db:seed.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate:types.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\markf\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\multitenant-ecommerce\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -177,6 +178,7 @@
       <workItem from="1755829259434" duration="10527000" />
       <workItem from="1755851243732" duration="213000" />
       <workItem from="1755852747127" duration="362000" />
+      <workItem from="1756080439327" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
