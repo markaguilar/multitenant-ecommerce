@@ -29,6 +29,7 @@ import { RegisterSchema } from "@/modules/auth/schemas";
 import { useTRPC } from "@/trpc/client";
 
 import { cn } from "@/lib/utils";
+import { STORE_BASE_DOMAIN } from "@/modules/auth/constants";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -38,7 +39,7 @@ const poppins = Poppins({
 export const SignUpView = () => {
   const router = useRouter();
   const trpc = useTRPC();
-  const register = useMutation(
+  const registerMutation = useMutation(
     trpc.auth.register.mutationOptions({
       onError: (error) => {
         toast.error(error.message);
@@ -61,13 +62,13 @@ export const SignUpView = () => {
   });
 
   const onSubmit = (values: z.infer<typeof RegisterSchema>) => {
-    register.mutate(values);
+    registerMutation.mutate(values);
   };
 
   const username = form.watch("username");
   const usernameErrors = form.formState.errors.username;
 
-  const showPreview = username && !usernameErrors;
+  const showPreview = !!username && !usernameErrors;
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-5">
@@ -97,7 +98,7 @@ export const SignUpView = () => {
               </Button>
             </div>
             <h1 className="text-4xl font-medium">
-              Join over 1,580 creator earning money on Funroad.
+              Join over 1,580 creators earning money on Funroad.
             </h1>
             <FormField
               name="username"
@@ -112,7 +113,9 @@ export const SignUpView = () => {
                   >
                     Your store will be available at&nbsp;
                     {/*  TODO: Use proper method to generate preview url */}
-                    <strong>{username}shop.com</strong>
+                    <strong>
+                      {username}${STORE_BASE_DOMAIN}
+                    </strong>
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -124,7 +127,12 @@ export const SignUpView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Email</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input
+                      {...field}
+                      type="email"
+                      autoComplete="email"
+                      inputMode="email"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -136,14 +144,18 @@ export const SignUpView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Password</FormLabel>
                   <FormControl>
-                    <Input {...field} type="password" />
+                    <Input
+                      {...field}
+                      type="password"
+                      autoComplete="new-password"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
               )}
             />
             <Button
-              disabled={register.isPending}
+              disabled={registerMutation.isPending}
               type="submit"
               size="lg"
               variant="elevated"

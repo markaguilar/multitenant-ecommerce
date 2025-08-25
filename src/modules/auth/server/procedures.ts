@@ -19,6 +19,14 @@ export const authRouter = createTRPCRouter({
   logout: baseProcedure.mutation(async () => {
     const cookies = await getCookies();
     cookies.delete(AUTH_COOKIE);
+    // Hard-expire as a fallback to cover path/attr mismatches
+    cookies.set({
+      name: AUTH_COOKIE,
+      value: "",
+      maxAge: 0,
+      path: "/",
+      httpOnly: true,
+    });
   }),
   register: baseProcedure
     .input(RegisterSchema)
@@ -45,7 +53,7 @@ export const authRouter = createTRPCRouter({
       await ctx.payload.create({
         collection: "users",
         data: {
-          email: input.email,
+          email: input.email.toLowerCase(),
           username: input.username,
           password: input.password,
         },

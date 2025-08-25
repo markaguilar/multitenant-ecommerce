@@ -37,7 +37,7 @@ const poppins = Poppins({
 export const SignInView = () => {
   const router = useRouter();
   const trpc = useTRPC();
-  const login = useMutation(
+  const loginMutation = useMutation(
     trpc.auth.login.mutationOptions({
       onError: (error) => {
         toast.error(error.message);
@@ -59,7 +59,7 @@ export const SignInView = () => {
   });
 
   const onSubmit = (values: z.infer<typeof LoginSchema>) => {
-    login.mutate(values);
+    loginMutation.mutate(values);
   };
 
   return (
@@ -96,7 +96,12 @@ export const SignInView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Email</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input
+                      {...field}
+                      type="email"
+                      autoComplete="email"
+                      inputMode="email"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -108,14 +113,18 @@ export const SignInView = () => {
                 <FormItem>
                   <FormLabel className="text-base">Password</FormLabel>
                   <FormControl>
-                    <Input {...field} type="password" />
+                    <Input
+                      {...field}
+                      type="password"
+                      autoComplete="current-password"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
               )}
             />
             <Button
-              disabled={login.isPending}
+              disabled={loginMutation.isPending}
               type="submit"
               size="lg"
               variant="elevated"
