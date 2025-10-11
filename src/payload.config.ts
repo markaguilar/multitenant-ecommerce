@@ -22,19 +22,26 @@ export default buildConfig({
     },
   },
   collections: [Users, Media, Categories],
+  cookiePrefix: "funroad",
   editor: lexicalEditor(),
-  secret: process.env.PAYLOAD_SECRET ||
-    (process.env.NODE_ENV === 'production'
-      ? (function() { throw new Error('PAYLOAD_SECRET is required in production') })()
-      : 'development-secret-key'),
+  secret:
+    process.env.PAYLOAD_SECRET ||
+    (process.env.NODE_ENV === "production"
+      ? (function () {
+          throw new Error("PAYLOAD_SECRET is required in production");
+        })()
+      : "development-secret-key"),
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
   db: mongooseAdapter({
-    url: process.env.DATABASE_URI || 
-      (process.env.NODE_ENV === 'production'
-        ? (function() { throw new Error('DATABASE_URI is required in production') })()
-        : 'mongodb://localhost/payload-dev'),
+    url:
+      process.env.DATABASE_URI ||
+      (process.env.NODE_ENV === "production"
+        ? (function () {
+            throw new Error("DATABASE_URI is required in production");
+          })()
+        : "mongodb://localhost/payload-dev"),
   }),
   sharp,
   plugins: [
