@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a75864-dd89-4b90-b22f-3ec06bf4aec5" name="Changes" comment="Merge branch 'main' of https://github.com/markaguilar/multitenant-ecommerce&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;package-lock.json&#10;#&#9;package.json">
+      <change afterPath="$PROJECT_DIR$/src/modules/auth/server/cookies.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/auth/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/Users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(app)/(home)/search-filters/search-input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/schemas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/schemas.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/server/procedures.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-in-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-in-view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-up-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/ui/views/sign-up-view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/payload.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trpc/server.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/trpc/server.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +99,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;08-authentication&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -103,7 +113,7 @@
     &quot;npm.db:seed.executor&quot;: &quot;Run&quot;,
     &quot;npm.generate:types.executor&quot;: &quot;Run&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\markf\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\multitenant-ecommerce\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -167,7 +177,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
       </set>
     </attachedChunks>
   </component>
@@ -190,6 +200,14 @@
       <workItem from="1755852747127" duration="362000" />
       <workItem from="1756080439327" duration="9546000" />
       <workItem from="1756091118631" duration="1543000" />
+      <workItem from="1756099613666" duration="2864000" />
+      <workItem from="1758438299752" duration="326000" />
+      <workItem from="1758438775486" duration="254000" />
+      <workItem from="1759594984698" duration="181000" />
+      <workItem from="1759595241593" duration="76000" />
+      <workItem from="1759595339693" duration="273000" />
+      <workItem from="1760190085839" duration="1538000" />
+      <workItem from="1760191687921" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary=":rocket: added shadcn, modified inputs, added fonts">
       <option name="closed" value="true" />
@@ -228,5 +246,16 @@
     <MESSAGE value=":rocket: added shadcn, modified inputs, added fonts" />
     <MESSAGE value="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #1 from markaguilar/02-customization&#10;&#10;:rocket: added shadcn, modified inputs, added fonts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/auth/server/procedures.ts</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
